@@ -1,0 +1,19 @@
+sudo apt-get install -y gcc build-essential linux-headers-server
+echo 'export PS1="\[\e[36;1m\]\u\[\e[31;1m\]@\[\e[32;1m\]\h:\[\e[33;1m\]\w
+\[\e[0m\] \\$ "' >> /etc/bashrc
+yum install 
+
+vagrant ALL=(ALL) NOPASSWD:ALL
+
+yum groupinstall "Development Tools"
+yum install dkms
+yum install net-tools
+yum intall wget
+wget http://download.virtualbox.org/virtualbox/5.0.0/VBoxGuestAdditions_5.0.0.iso
+sudo mount /dev/cdrom /media/cdrom
+$ sudo sh /media/cdrom/VBoxLinuxAdditions.run
+
+08002788162C
+https://github.com/hollodotme/Helpers/blob/master/Tutorials/vagrant/self-hosted-vagrant-boxes-with-versioning.md
+nvidia libs:
+xorg-x11-drv-nvidia-304xx-libs-304.125-1.fc22.i686
